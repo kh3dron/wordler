@@ -87,7 +87,7 @@ def main(words):
 			print("Thanks for playing")
 			return
 		elif res == "0":
-			words = words[1:]
+			words = bests[1:]
 		else:
 			words = prune(words, bests[0], res)
 
